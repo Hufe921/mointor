@@ -1,6 +1,6 @@
-# monitor
+# vue-frame
 
-> monitor
+> vue-frame
 
 ## Build Setup
 

@@ -1,0 +1,403 @@
+[2018-03-29T16:32:53.224] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522301989119:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522301989119&line=104&col=16&nowTime=1522312359859
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522301989119:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522301989119","line":"104","col":"16","nowTime":"1522312359859"}
+response time: 13345
+err name: ReferenceError
+err message: data is not defined
+err stack: ReferenceError: data is not defined
+    at Object.postError (g:\vscode\monitor\core\services\index.js:24:14)
+    at GET /api/postError (g:\vscode\monitor\controllers\index.js:26:47)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-29T16:40:22.509] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522312811217
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522312811217"}
+response time: 11278
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:40:23.756] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=266&allLoadTime=268&allloadTime=11570&mobile=webKit&nowTime=1522312822520
+request client ip:  ::1
+request query:  {"whiteScreenTime":"266","allLoadTime":"268","allloadTime":"11570","mobile":"webKit","nowTime":"1522312822520"}
+response time: 1231
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:43:00.023] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522312924551
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522312924551"}
+response time: 55468
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:43:00.563] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=21&allLoadTime=21&allloadTime=55499&mobile=webKit&nowTime=1522312980029
+request client ip:  ::1
+request query:  {"whiteScreenTime":"21","allLoadTime":"21","allloadTime":"55499","mobile":"webKit","nowTime":"1522312980029"}
+response time: 529
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:43:12.403] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522312983748
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522312983748"}
+response time: 8651
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:43:13.022] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=18&allLoadTime=18&allloadTime=8738&mobile=webKit&nowTime=1522312992468
+request client ip:  ::1
+request query:  {"whiteScreenTime":"18","allLoadTime":"18","allloadTime":"8738","mobile":"webKit","nowTime":"1522312992468"}
+response time: 544
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:46:29.750] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522313058719
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522313058719"}
+response time: 131015
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:46:29.754] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522313058719
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522313058719"}
+response time: 598
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:46:30.972] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=20&allLoadTime=21&allloadTime=131060&mobile=webKit&nowTime=1522313189758
+request client ip:  ::1
+request query:  {"whiteScreenTime":"20","allLoadTime":"21","allloadTime":"131060","mobile":"webKit","nowTime":"1522313189758"}
+response time: 1205
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:48:10.319] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522313202069
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522313202069"}
+response time: 88240
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:48:10.869] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=18&allLoadTime=19&allloadTime=88275&mobile=webKit&nowTime=1522313290326
+request client ip:  ::1
+request query:  {"whiteScreenTime":"18","allLoadTime":"19","allloadTime":"88275","mobile":"webKit","nowTime":"1522313290326"}
+response time: 538
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:48:54.797] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522313326115
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522313326115"}
+response time: 8670
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:48:55.372] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=24&allLoadTime=26&allloadTime=8719&mobile=webKit&nowTime=1522313334809
+request client ip:  ::1
+request query:  {"whiteScreenTime":"24","allLoadTime":"26","allloadTime":"8719","mobile":"webKit","nowTime":"1522313334809"}
+response time: 559
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:51:48.090] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postError?msg=TypeError:Cannotreadproperty%27s%27ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16&url=http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791&line=104&col=16&nowTime=1522313503297
+request client ip:  ::1
+request query:  {"msg":"TypeError:Cannotreadproperty's'ofundefinedathttp://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791:104:16","url":"http://127.0.0.1:8021/Mointor/index.html?__hbt=1522312810791","line":"104","col":"16","nowTime":"1522313503297"}
+response time: 4649
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+
+[2018-03-29T16:51:48.787] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/postAction?&whiteScreenTime=48&allLoadTime=49&allloadTime=4850&mobile=webKit&nowTime=1522313508099
+request client ip:  ::1
+request query:  {"whiteScreenTime":"48","allLoadTime":"49","allloadTime":"4850","mobile":"webKit","nowTime":"1522313508099"}
+response time: 683
+err name: SequelizeDatabaseError
+err message: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+err stack: SequelizeDatabaseError: Incorrect datetime value: 'Invalid date' for column 'nowTime' at row 1
+    at Query.formatError (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:247:16)
+    at Query.handler [as onResult] (G:\vscode\monitor\node_modules\_sequelize@4.37.5@sequelize\lib\dialects\mysql\query.js:68:23)
+    at Query.Command.execute (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:502:28)
+    at PacketParser.onPacket (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:81:16)
+    at PacketParser.executeStart (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (G:\vscode\monitor\node_modules\_mysql2@1.5.3@mysql2\lib\connection.js:89:29)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:594:20)
+*************** error log end ***************
+

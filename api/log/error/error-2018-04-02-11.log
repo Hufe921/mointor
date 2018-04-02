@@ -1,0 +1,56 @@
+[2018-04-02T11:25:05.877] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/getDetailError
+request client ip:  ::1
+request body: 
+{"time":"08:00-12:00"}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'time' of undefined
+err stack: TypeError: Cannot read property 'time' of undefined
+    at module.exports.POST /api/getDetailError (g:\vscode\monitor\controllers\index.js:74:44)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-04-02T11:25:18.782] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/getDetailError
+request client ip:  ::1
+request body: 
+{"time":"08:00-12:00"}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'time' of undefined
+err stack: TypeError: Cannot read property 'time' of undefined
+    at module.exports.POST /api/getDetailError (g:\vscode\monitor\controllers\index.js:74:44)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+

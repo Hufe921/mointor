@@ -12,9 +12,11 @@ import utils from './utils'
 import VePie from 'v-charts/lib/pie'
 import VeLine from 'v-charts/lib/line'
 import VeHistogram from 'v-charts/lib/histogram'
+import Map from 'v-charts/lib/map'
 Vue.component(VePie.name, VePie)
 Vue.component(VeLine.name, VeLine)
 Vue.component(VeHistogram.name, VeHistogram)
+Vue.component(Map.name, Map)
 
 Vue.prototype.$utils = utils
 Vue.prototype.$http = http

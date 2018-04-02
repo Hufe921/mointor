@@ -1,0 +1,156 @@
+[2018-03-30T09:24:26.923] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/fromsStatic
+request client ip:  ::1
+request query:  {}
+response time: 5
+err name: ReferenceError
+err message: Op is not defined
+err stack: ReferenceError: Op is not defined
+    at Object.fromsStatic (g:\vscode\monitor\core\services\index.js:40:18)
+    at GET /api/fromsStatic (g:\vscode\monitor\controllers\index.js:38:48)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-30T09:26:54.297] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/fromsStatic
+request client ip:  ::1
+request query:  {}
+response time: 46257
+err name: ReferenceError
+err message: Op is not defined
+err stack: ReferenceError: Op is not defined
+    at Object.fromsStatic (g:\vscode\monitor\core\services\index.js:41:18)
+    at GET /api/fromsStatic (g:\vscode\monitor\controllers\index.js:38:48)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-30T09:26:57.388] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/fromsStatic
+request client ip:  ::1
+request query:  {}
+response time: 3056
+err name: ReferenceError
+err message: Op is not defined
+err stack: ReferenceError: Op is not defined
+    at Object.fromsStatic (g:\vscode\monitor\core\services\index.js:41:18)
+    at GET /api/fromsStatic (g:\vscode\monitor\controllers\index.js:38:48)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-30T09:32:46.390] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/fromsStatic
+request client ip:  ::1
+request query:  {}
+response time: 33173
+err name: ReferenceError
+err message: Op is not defined
+err stack: ReferenceError: Op is not defined
+    at Object.fromsStatic (g:\vscode\monitor\core\services\index.js:41:18)
+    at GET /api/fromsStatic (g:\vscode\monitor\controllers\index.js:38:48)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-30T09:35:16.765] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/fromsStatic
+request client ip:  ::1
+request query:  {}
+response time: 7753
+err name: ReferenceError
+err message: Op is not defined
+err stack: ReferenceError: Op is not defined
+    at Object.fromsStatic (g:\vscode\monitor\core\services\index.js:41:18)
+    at GET /api/fromsStatic (g:\vscode\monitor\controllers\index.js:38:48)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at G:\vscode\monitor\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (G:\vscode\monitor\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at g:\vscode\monitor\rest.js:16:27
+    at dispatch (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (G:\vscode\monitor\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at bodyParser (G:\vscode\monitor\node_modules\_koa-bodyparser@4.2.0@koa-bodyparser\index.js:86:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-03-30T09:50:01.489] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/fromsStatic
+request client ip:  ::1
+request query:  {}
+response time: 71
+err name: ReferenceError
+err message: a is not defined
+err stack: ReferenceError: a is not defined
+    at originResult.map.c (g:\vscode\monitor\core\services\index.js:52:20)
+    at Array.map (<anonymous>)
+    at Object.fromsStatic (g:\vscode\monitor\core\services\index.js:48:18)
+    at <anonymous>
+*************** error log end ***************
+
